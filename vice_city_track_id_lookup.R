@@ -5,6 +5,7 @@ library(spotifyr)
 # - SPOTIFY_CLIENT_ID
 # - SPOTIFY_CLIENT_SECRET
 # are set with details from: https://developer.spotify.com/dashboard/applications
+# Sys.setenv(SPOTIFY_CLIENT_ID = "", SPOTIFY_CLIENT_SECRET = "")
 
 access_token <- get_spotify_access_token()
 
